@@ -39,8 +39,7 @@ nav div{
 }
 .search-box{
     width: 70%;
-    height: 30px;
-    /* padding: 10px; */
+    height: 40px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: 1px solid #d1d1d1;

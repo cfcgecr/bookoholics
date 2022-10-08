@@ -1,36 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookoholics</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/nav.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/cards.css">
+    <script defer src="js/nav.js"></script>
+    <script defer src="js/slider.js"></script>
+    
+
+  </head>
+  <body>
     <header class="navbar">
-        <nav>
-            <div class="logo">
-                <img src="img/Group 3.png" alt="">
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li><a href="/public/index.html"> Home </a></li>
-                    <li><a href="books.html"> Books</a></li>
-                    <li><a href="about.html"> About</a></li>
-                    <li><a href="contact.html"> Contact</a></li>
-                </ul>
-            </div>
-            <div class="search">
-                <input type="text" class="search-box" placeholder="Search your book">
-                <button class="search-btn">Search</button>
-            </div>
-            <div class="icons">
-                <img src="img/user.png" alt="cart">
-                <img src="img/cart.png" alt="cart">
-            </div>
-        </nav>
+      <nav>
+        <div class="logo">
+          <img src="img/Group 3.png" alt="" />
+        </div>
+        <div class="nav-menu">
+          <ul>
+            <li><a href="/public/index.html"> Home </a></li>
+            <li><a href="books.html"> Books</a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            class="search-box"
+            placeholder="Search your book"
+          />
+          <button class="search-btn">Search</button>
+        </div>
+        <div class="icons">
+          <img src="img/user.png" alt="cart" />
+          <img src="img/cart.png" alt="cart" />
+        </div>
+      </nav>
     </header>
-</body>
+    <div class="hero-section">
+      <div class="slideshow-container">
+        <div class="slide">
+          <div class="numbertext">
+            1
+          </div>
+          <div class="image">
+            <img src="img/cover1.jpg" alt="cover">
+          </div>
+        </div>
+        <div class="slide">
+          <div class="numbertext">
+            2
+          </div>
+          <div class="image">
+            <img src="img/cover2.jpg" alt="cover">
+          </div>
+        </div>
+        <div class="slide">
+          <div class="numbertext">
+            3
+          </div>
+          <div class="image">
+            <img src="img/cover3.jpg" alt="cover">
+          </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+        <div class="dots" >
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </div>
+    <div class="book-section-container">
+      <div class="booktitle">
+        <div>        JEE Preparation Books
+        </div>
+      </div>
+      <div class="jee">
+        <div class="jeebookcard">
+          <div class="card">
+            <img src="img/jeebook1.jpeg" alt="book1">
+            <div class="bookname">
+              book1
+            </div>
+            <div class="price">
+              <span class="prev-price">	&#8377 400</span>
+              <span>|</span>
+              <span class="new-price">	&#8377 100</span>
+            </div>
+          </div>
+        </div>      
+        <div class="jeebookcard">
+          <div class="card">
+            <img src="img/jeebook1.jpeg" alt="book1">
+            <div class="bookname">
+              book1
+            </div>
+            <div class="price">
+              <span class="prev-price">	&#8377 400</span>
+              <span>|</span>
+              <span class="new-price">	&#8377 100</span>
+            </div>
+          </div>
+        </div>      
+        <div class="jeebookcard">
+          <div class="card">
+            <img src="img/jeebook1.jpeg" alt="book1">
+            <div class="bookname">
+              book1
+            </div>
+            <div class="price">
+              <span class="prev-price">	&#8377 400</span>
+              <span>|</span>
+              <span class="new-price">	&#8377 100</span>
+            </div>
+          </div>
+        </div>      
+      </div>
+      <div class="booktitle" >
+        <div>        
+          NEET Preparation Books
+        </div>
+      </div>
+      <div class="neet">
+        <div class="neetbookcard">
+          <div class="card">
+            <img src="img/neetbook1.png" alt="book1">
+            <div class="bookname">
+              book1
+            </div>
+            <div class="price">
+              <span class="prev-price">	&#8377 400</span>
+              <span>|</span>
+              <span class="new-price">	&#8377 100</span>
+            </div>
+          </div>
+        </div>      
+        <div class="neetbookcard">
+          <div class="card">
+            <img src="img/neetbook1.png" alt="book1">
+            <div class="bookname">
+              book1
+            </div>
+            <div class="price">
+              <span class="prev-price">	&#8377 400</span>
+              <span>|</span>
+              <span class="new-price">	&#8377 100</span>
+            </div>
+          </div>
+        </div>      
+        <div class="neetbookcard">
+          <div class="card">
+            <img src="img/neetbook1.png" alt="book1">
+            <div class="bookname">
+              book1
+            </div>
+            <div class="price">
+              <span class="prev-price">	&#8377 400</span>
+              <span>|</span>
+              <span class="new-price">	&#8377 100</span>
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>
+  </body>
 </html>
