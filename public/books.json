@@ -1,0 +1,102 @@
+{
+  "jee": [
+    {
+      "img": "img/jeebook1.jpeg",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/jeebook1.jpeg",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/jeebook1.jpeg",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/jeebook1.jpeg",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/jeebook1.jpeg",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/jeebook1.jpeg",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/jeebook1.jpeg",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/jeebook1.jpeg",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    }
+  ],
+  "neet":[
+    {
+      "img": "img/neetbook1.png",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/neetbook1.png",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/neetbook1.png",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/neetbook1.png",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/neetbook1.png",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/neetbook1.png",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/neetbook1.png",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    },
+    {
+      "img": "img/neetbook1.png",
+      "bookname": "jee physics",
+      "prevprice": 400,
+      "newprice": 100
+    }
+  ]
+}
