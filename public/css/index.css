@@ -3,22 +3,26 @@
   margin: 0;
   padding: 0;
 }
-
-.jee {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  width: fit-content;
+.jeebookcard{
   margin: auto;
-  margin-top: 50px;
-  gap: 20px 15px;
+}
+.jee {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  margin-top: 20px;
 }
 .neet {
+  width: 80%;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  width: fit-content;
-  margin: auto;
-  margin-top: 50px;
-  gap: 20px 15px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  margin-top: 20px;
 }
 .booktitle {
   margin-top: 20px;
