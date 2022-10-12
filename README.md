@@ -8,6 +8,7 @@ This is a e-commerce project where a person with old books can sell their books 
 - HTML
 - CSS
 - Vanilla JavaScript
+- JQuery
 - Node.js
 - MongoDB
 

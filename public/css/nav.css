@@ -7,6 +7,9 @@
 .navbar nav{
     display: flex;
 } 
+a:link{
+    text-decoration: none;
+}
 .nav-menu ul{
     display: flex;
     list-style: none;
